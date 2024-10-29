@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+env.bak/
+*.egg-info/
+dist/
+build/
+*.log
+
+# React
+node_modules/
+build/
+*.log
+*.env
+.DS_Store
+
+# System files
+*.swp
+*.swo
+Thumbs.db
+ehthumbs.db
+Icon?
