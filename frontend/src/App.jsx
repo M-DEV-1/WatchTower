@@ -1,6 +1,7 @@
 // frontend/src/App.jsx
 import React, { useEffect, useState } from 'react';
 import { getHelloMessage } from './api';
+import WebcamCapture from './components/webcam.jsx';
 
 function App() {
   const [message, setMessage] = useState('');
@@ -16,9 +17,13 @@ function App() {
   }, []);
 
   return (
+    <>
     <div className="App">
       <h1>{message || error || "Loading..."}</h1>
     </div>
+    <br />
+    <WebcamCapture/>
+    </>
   );
 }
 
